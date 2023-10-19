@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="borderWidth">8dp</dimen>
+    <dimen name="borderPadding">0dp</dimen>
+</resources>

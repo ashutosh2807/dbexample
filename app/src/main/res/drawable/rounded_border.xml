@@ -1,0 +1,24 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Outer border (rounded) -->
+
+
+    <item>
+        <shape android:shape="oval" >
+            <solid android:color="@android:color/transparent" />
+            <stroke
+                android:color="#000000"
+                android:width="@dimen/borderWidth" />
+        </shape>
+    </item>
+    <!-- Inner content with padding -->
+    <item
+        android:left="@dimen/borderPadding"
+        android:right="@dimen/borderPadding"
+        android:top="@dimen/borderPadding"
+        android:bottom="@dimen/borderPadding"
+        >
+        <bitmap
+            android:src="@drawable/img"
+            />
+    </item>
+</layer-list>
